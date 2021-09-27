@@ -1,0 +1,40 @@
+version: '3.9'
+services:
+  telegraf:
+    image: telegraf:latest
+    volumes:
+      - ./telegraf/data:/data
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    networks:
+      - mqtt
+  node-red:
+    image: nodered/node-red:latest
+    networks:
+      - mqtt
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./node_data:/data
+  mosquitto:
+    image: eclipse-mosquitto:1.6
+    networks:
+      - mqtt
+    volumes: 
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/logs:/mosquitto/logs
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+  influxdb:
+    image: influxdb:latest
+    volumes:
+      # Mount for influxdb data directory and configuration
+      - ./influxdb/data:/var/lib/influxdb2:rw
+    ports:
+      - "8086:8086"
+    networks:
+      - mqtt
+
+
+networks: 
+  mqtt:
+    name: mqtt
+    

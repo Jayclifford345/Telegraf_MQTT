@@ -1,0 +1,6 @@
+influxdb/data/
+influxdb/data/influxd.bolt
+mosquitto/data
+mosquitto/logs
+
+
