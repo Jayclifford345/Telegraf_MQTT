@@ -443,3 +443,17 @@ example,host=bee12d58b128,topic=telegraf metaData_value="Open|Closed" 1632489557
 example,host=bee12d58b128,topic=telegraf metaData_value="Boolean" 1632489557056949000
 example,host=bee12d58b128,topic=telegraf metaData_value="secure" 1632489557056949000
 example,host=bee12d58b128,topic=telegraf metaData_value="0" 1632489557056949000
+example,host=bee12d58b128,topic=telegraf sim_id="10004",gsm=4 1632906557060473300
+example,host=bee12d58b128,topic=telegraf sim_id="10004",gsm=4 1632906591724149000
+example,host=bee12d58b128,topic=telegraf sim_id="10004",gsm=4 1632906591876808500
+example,host=bee12d58b128,topic=telegraf sim_id="10004",gsm=4 1632906592043765700
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632906651773926800
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632906651951438300
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632906652066031900
+example,host=bee12d58b128,topic=telegraf sim_id="10001",gsm=1 1632908793561784900
+example,host=bee12d58b128,topic=telegraf sim_id="10001",gsm=1 1632908794727115800
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632909246550792600
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632909246718331300
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632909246875647300
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632909247026055700
+example,host=bee12d58b128,topic=telegraf 10001_sim_id="10001",10001_gsm=1,10002_sim_id="10002",10002_gsm=2,10003_sim_id="10003",10003_gsm=3,10004_sim_id="10004",10004_gsm=4 1632909247168283100

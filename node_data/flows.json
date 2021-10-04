@@ -89,7 +89,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "\"{\\\"newEvent\\\":[{\\\"metaData\\\":[{\\\"name\\\":\\\"nw_id\\\",\\\"value\\\":\\\"2222222\\\"},{\\\"name\\\":\\\"varindex\\\",\\\"value\\\":\\\"103\\\"},{\\\"name\\\":\\\"datasource\\\",\\\"value\\\":\\\" \\\"},{\\\"name\\\":\\\"datavalue\\\",\\\"value\\\":\\\"1\\\"},{\\\"name\\\":\\\"created_at\\\",\\\"value\\\":\\\"1632232201814\\\"},{\\\"name\\\":\\\"warning\\\",\\\"value\\\":\\\"0\\\"},{\\\"name\\\":\\\"sysmode\\\",\\\"value\\\":\\\"9\\\"},{\\\"name\\\":\\\"varfunction\\\",\\\"value\\\":\\\"some-window-switch\\\"},{\\\"name\\\":\\\"varname\\\",\\\"value\\\":\\\"state\\\"},{\\\"name\\\":\\\"instance_\\\",\\\"value\\\":\\\"new created Room\\\"},{\\\"name\\\":\\\"mediatype\\\",\\\"value\\\":\\\"some-window-switch/state\\\"},{\\\"name\\\":\\\"last_datavalue\\\",\\\"value\\\":\\\"0\\\"},{\\\"name\\\":\\\"std_units\\\",\\\"value\\\":\\\"Open|Closed\\\"},{\\\"name\\\":\\\"raw_units\\\",\\\"value\\\":\\\"Boolean\\\"},{\\\"name\\\":\\\"category\\\",\\\"value\\\":\\\"secure\\\"},{\\\"name\\\":\\\"encryption\\\",\\\"value\\\":\\\"0\\\"}],\\\"mediaType\\\":\\\"somesensor/Window\\\",\\\"bs\\\":1111111111111,\\\"siteId\\\":\\\"99999999999999\\\",\\\"deviceId\\\":\\\"18\\\",\\\"instanceName\\\":\\\"new created Room\\\",\\\"lastValue\\\":\\\"0\\\",\\\"lastDuration\\\":\\\"1394947\\\",\\\"value\\\":\\\"1\\\"}],\\\"count\\\":0}\"",
+        "payload": "{\"devices\":{\"10001\":{\"sim_id\":\"10001\",\"gsm\":1},\"10002\":{\"sim_id\":\"10002\",\"gsm\":2},\"10003\":{\"sim_id\":\"10003\",\"gsm\":3},\"10004\":{\"sim_id\":\"10004\",\"gsm\":4}}}",
         "payloadType": "json",
         "x": 280,
         "y": 280,
