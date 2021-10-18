@@ -82,6 +82,31 @@
         "sessionExpiry": ""
     },
     {
+        "id": "a304f6bc5e1c469f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.1.220",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
         "id": "5675688fa5682765",
         "type": "mqtt out",
         "z": "eebc86d57f4bf584",
@@ -129,17 +154,19 @@
         "type": "mqtt in",
         "z": "eebc86d57f4bf584",
         "name": "",
-        "topic": "transformed",
+        "topic": "inference",
         "qos": "2",
         "datatype": "auto",
-        "broker": "b1270b569dc8c70c",
+        "broker": "a304f6bc5e1c469f",
         "nl": false,
         "rap": true,
         "rh": 0,
-        "x": 260,
+        "x": 250,
         "y": 380,
         "wires": [
-            []
+            [
+                "0d8a5ca8fbf6715c"
+            ]
         ]
     },
     {
@@ -170,8 +197,7 @@
         "y": 280,
         "wires": [
             [
-                "70a11821eaa3a53d",
-                "0d8a5ca8fbf6715c"
+                "70a11821eaa3a53d"
             ]
         ]
     },
